@@ -6,7 +6,7 @@ body{
  border-width: 0.005cm;
  background-image: linear-gradient(90.1deg,rgba(8,81,98,1)14.5%, rgba(198,231,249,1)135.4%);
  border-color:aliceblue;
- box-shadow: 4px 1px 10px rgba(8,81,98,1);
+ box-shadow: 4px 10px 10px 4px rgba(8,81,98,1);
  
     
 }
@@ -26,7 +26,6 @@ h1{
     justify-content: space-between;
     border-width: 0.005cm;
     border-color: aliceblue;
-
 }
 #navigation-bar{
     text-align: end;
@@ -44,5 +43,31 @@ a{
     text-decoration: none;
     border-color: aliceblue;
     color:aliceblue ;
+
+}
+#introduction{
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+#project-head{
+    text-decoration: double;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+#monologue{
+    margin-left: 20px;
+}
+
+#blog-page{
+    display: flex;
+    height: 655px;
+
+}
+
+#welcome{
+    border: solid aliceblue 0.005cm;
+    border-radius: 0px 20px 0px 20px;
 
 }
